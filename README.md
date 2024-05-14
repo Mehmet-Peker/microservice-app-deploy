@@ -12,11 +12,11 @@ This project aims to create full CI/CD Pipeline for microservice based applicati
 
 ### Pipelines Configurations
 
-![Pipelines to be configured](./project-505-pipelines.png)
+![Pipelines to be configured](./project-MS_CICD-pipelines.png)
 
 ### Pipelines Overview
 
-![Pipelines to be configured](./project-505-general.png)
+![Pipelines to be configured](./project-MS_CICD-general.png)
 
 ## Flow of Tasks for Project Realization
 
