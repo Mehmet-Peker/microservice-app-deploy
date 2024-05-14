@@ -1,4 +1,4 @@
-- The project 504's resources are below:
+- The project's resources are below:
 
 ```yml
 Gitflow: https://www.youtube.com/watch?v=1SXpE08hvGs
