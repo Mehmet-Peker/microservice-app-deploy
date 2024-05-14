@@ -23,7 +23,7 @@ This project aims to create full CI/CD Pipeline for microservice based applicati
 | Epic | Task  | Task #  | Task Definition   | Branch  |
 | ---   | :---  | ---                  | :---              | :---    |
 | Local Development Environment | Prepare Development Server Manually on EC2 Instance| MSP-1 | Prepare development server manually on Amazon Linux 2 for developers, enabled with `Docker` , `Docker-Compose` , `Java 11` , `Git` .  |
-| Local Development Environment | Prepare GitHub Repository for the Project | MSP-2-1 | Clone the Petclinic app from the Clarusway repository [Petclinic Microservices Application](https://github.com/clarusway/petclinic-microservices.git) |
+| Local Development Environment | Prepare GitHub Repository for the Project | MSP-2-1 | Clone the Petclinic app from the relevant repository |
 | Local Development Environment | Prepare GitHub Repository for the Project | MSP-2-2 | Prepare base branches namely `main` , `dev` , `release` for DevOps cycle. |
 | Local Development Environment | Check the Maven Build Setup on Dev Branch | MSP-3 | Check the Maven builds for `test` , `package` , and `install` phases on `dev` branch |
 | Local Development Environment | Prepare a Script for Packaging the Application | MSP-4 |  Prepare a script to package the application with Maven wrapper | feature/msp-4 |
@@ -62,7 +62,7 @@ This project aims to create full CI/CD Pipeline for microservice based applicati
 ## MSP 1 - Prepare Development Server Manually on EC2 Instance
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-* Prepare development server manually on Amazon Linux 2 (t3a.medium) for developers, enabled with `Docker`,  `Docker-Compose`,  `Java 11`,  `Git`.
+* Prepare development server manually on Amazon Linux 2 for developers, enabled with `Docker`,  `Docker-Compose`,  `Java 11`,  `Git`.
 
 ``` bash
 #! /bin/bash
@@ -84,11 +84,7 @@ newgrp docker
 ## MSP 2 - Prepare GitHub Repository for the Project
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-* Connect to your Development Server via `ssh` and clone the petclinic app from the repository [Spring Petclinic Microservices App](https://github.com/clarusway/petclinic-microservices-with-db.git).
-
-``` bash
-git clone https://github.com/clarusway/petclinic-microservices-with-db.git
-```
+* Connect to your Development Server via `ssh` and clone the petclinic app from the relevant repository.
 
 * Change your working directory to **petclinic-microservices** and delete the **.git** directory.
 
