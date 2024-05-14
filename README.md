@@ -8,7 +8,7 @@ This project aims to create full CI/CD Pipeline for microservice based applicati
 
 ### Development Diagram
 
-![Development Diagram](./project-505-dev-diagram.png)
+![Development Diagram](./project-MS_CICD-dev-diagram.png)
 
 ### Pipelines Configurations
 
